@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.parent{
+    background-color: lightseagreen;
+    width: 100%;
+    height: 700px;
+}
+.parent .right,.left{
+    width: 50%;
+    float: left;
+}
+.right{
+    background-color: rgb(109,151,115);
+
+}
+.left img{
+    height: 700px;
+    width: 100%;
+}
+@media (max-width:1500px){
+    .left img{
+        height: 400px;
+    }
+}
+
+@media (max-width:1500px){
+    .parent .right,.left{
+        width: 100%;
+
+    }
+}
+@media (max-width:1500px){
+    .parent{
+        height: 600px;
+
+    } 
+    .left img{
+
+
+    }
+}
+

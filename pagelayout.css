@@ -1,0 +1,63 @@
+*{
+    margin: auto;
+    box-sizing: border-box;
+}
+.l{float: left;}
+.r{float: right;}
+.cc{clear: both;}
+span{
+    margin-top: 30%;
+    font-size: small;
+}
+button{
+    background-color: yellow;
+    margin-top: 40px;
+}
+button> a{
+text-decoration: none; 
+line-height: 20px;
+}
+.menu{line-height: 50px; text-align: center; border: 1px #000 solid; margin: 10px;}
+.left{background-color: red; width: 50%; height: 450px; padding: 50px; color: white;}
+.right{width: 40%; height: 450px;}
+.right> img{
+    width: 100%;
+    height: 450px;
+}
+
+.mid{
+    background-color: aquamarine; width: 90%; height: 450px;
+    float: left;
+    padding: 50px;
+}
+.mid>h1{
+    float: left;
+}
+.mid>p{
+    float: right;
+}
+.image{
+    padding: 20px;
+}
+.image>img{
+    width: 100%;
+    height: 200px;
+
+}
+.third{background-color: yellow; width: 90%; height: 450px; float: left;
+    
+}
+.third_container{
+    text-align: center;
+}
+.third_container>h2{
+    padding-top: 100px;
+}
+.leftmid{ width: 33%; height: 450px;}
+.midmid{ width: 33%; height: 450px;}
+.rightmid{ width: 33%; height: 450px;}
+  
+body {
+    width: 80%; /* or any desired width */
+    align-content: center;
+  }
